@@ -4,7 +4,7 @@
         <meta charset="UTF-8"/>
         <Title>Reservia</Title>
         <link rel="stylesheet" href="Styles/Styles.css">
-        <script src="https://kit.fontawesome.com/12c269bc7f.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="fontawesome.min.css">
 
     </head>
 
@@ -35,7 +35,7 @@
             <!-- Première section du site, formulaire de recherche -->
         <section class="search">
             
-            <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+            <i class="fa-location-dot"></i>
             <form method="POST" action="Traitement.php">
                     <input type="text" name="Rechercher" id="Rechercher" value="Marseille, France">
                     <label for="Rechercher" id="searchButtom">Rechercher</label> 
@@ -45,13 +45,16 @@
             <!-- Deuxième section, filtres et informations de recherche -->
         <section class="filtres">
             <h2>Filtres</h2>
-            <div class="buttom"><img src="#" alt="à renseigner"/></div>
-            <div class="buttom"><img src="#" alt="à renseigner"/></div>
-            <div class="buttom"><img src="#" alt="à renseigner"/></div>
-            <div class="buttom"><img src="#" alt="à renseigner"/></div>
-
-            <aside class="infosFiltres"><img src="#" alt="à renseigner"/><p>Plus de 500 logements sont disponibles dans cette ville</p></aside>
+            <div class="buttom"><div class="rond"></div><h2>Économique</h2></div>
+            <div class="buttom"><div class="rond"></div><h2>Familial</h2></div>
+            <div class="buttom"><div class="rond"></div><h2>Romantique</h2></div>
+            <div class="buttom"><div class="rond"></div><h2>Animaux Autorisés</h2></div>
         </section>
+
+        <aside class="infosFiltres">
+            <i class="fa-info"></i>
+            <p>Plus de 500 logements sont disponibles dans cette ville</p>
+        </aside>
 
             <!-- Troisième section, hébergements dispo dans la ville ciblée -->
         <section id="logements">
