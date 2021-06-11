@@ -4,6 +4,8 @@
         <meta charset="UTF-8"/>
         <Title>Reservia</Title>
         <link rel="stylesheet" href="Styles/Styles.css">
+        
+        
         <script src="https://kit.fontawesome.com/12c269bc7f.js" crossorigin="anonymous" defer></script>
 
     </head>
@@ -40,22 +42,22 @@
                         <i class="fas fa-map-marker-alt searchFormWrapiconIcon" style="color:#0065FC ;"></i>
                     </div>
                     <input type="text" name="Rechercher" id="Rechercher" value="Marseille, France">
-                    <label for="Rechercher" id="searchButtom">Rechercher</label> 
+                    <label for="Rechercher" id="searchButtom" style="font-weight: bold;">Rechercher</label> 
             </form>
             
         </section>
             <!-- Deuxième section, filtres et informations de recherche -->
         <section class="filtres">
             <h2>Filtres</h2>
-            <div class="buttom"><div class="rond"></div><h2>Économique</h2></div>
-            <div class="buttom"><div class="rond"></div><h2>Familial</h2></div>
-            <div class="buttom"><div class="rond"></div><h2>Romantique</h2></div>
-            <div class="buttom"><div class="rond"></div><h2>Animaux Autorisés</h2></div>
+            <div class="buttom"><div class="rond"><i class="fas fa-money-bill-wave filtresButtom"></i></div><h2>Économique</h2></div>
+            <div class="buttom"><div class="rond"><i class="fas fa-child filtresButtom"></i></div><h2>Familial</h2></div>
+            <div class="buttom"><div class="rond"><i class="fas fa-heart filtresButtom"></i></div><h2>Romantique</h2></div>
+            <div class="buttom"><div class="rond"><i class="fas fa-dog filtresButtom"></i></div><h2>Animaux Autorisés</h2></div>
         </section>
 
         <aside class="infosFiltres">
-            <i class="fa-info"></i>
-            <p>Plus de 500 logements sont disponibles dans cette ville</p>
+            <div class="infosBulle"><i class="fas fa-info" style="color: #0065FC;"></i></div>
+            <div><p>Plus de 500 logements sont disponibles dans cette ville</p></div>
         </aside>
 
             <!-- Troisième section, hébergements dispo dans la ville ciblée -->
