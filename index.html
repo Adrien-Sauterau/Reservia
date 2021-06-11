@@ -4,7 +4,7 @@
         <meta charset="UTF-8"/>
         <Title>Reservia</Title>
         <link rel="stylesheet" href="Styles/Styles.css">
-        <link rel="stylesheet" href="fontawesome.min.css">
+        <script src="https://kit.fontawesome.com/12c269bc7f.js" crossorigin="anonymous" defer></script>
 
     </head>
 
@@ -13,8 +13,8 @@
             <!-- Entête du site, logo, phrase d'accroche et menu de navigation -->
             <!-- Test -->
             <section id="Logo">
-                <!--<img src="images/logo/Reservia@3x.png" alt="à renseigner"/>-->
-                <h1 id="imgLogo"></h1>
+        
+            
                 <nav id="menuNav">
                     <ul id="navigation">
                         <li><a href="#logo">Hébergements</a></li>
@@ -35,8 +35,10 @@
             <!-- Première section du site, formulaire de recherche -->
         <section class="search">
             
-            <i class="fa-location-dot"></i>
             <form method="POST" action="Traitement.php">
+                    <div class="iconeLoc">
+                        <i class="fas fa-map-marker-alt searchFormWrapiconIcon" style="color:#0065FC ;"></i>
+                    </div>
                     <input type="text" name="Rechercher" id="Rechercher" value="Marseille, France">
                     <label for="Rechercher" id="searchButtom">Rechercher</label> 
             </form>
