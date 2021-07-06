@@ -15,7 +15,7 @@
             <header>
                 <!-- Entête du site, logo, phrase d'accroche et menu de navigation -->
                 <!-- Test -->
-                <section id="Logo">
+                <div id="Logo">
             
                     <figure id="imgLogo">
                         <img src="images/logo/Reservia@3x.png" alt="Logo du site"/>
@@ -30,12 +30,12 @@
                 
                     <div id="inscription" style="font-weight: 600;"><a href="#">S'inscrire</a></div>
                     
-                </section>
+                </div>
                 
-                <article id="titrePrcpl">
+                <div id="titrePrcpl">
                     <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                     <p>En plein centre ville ou en pleine nature</p>
-                </article>    
+                </div>    
             </header>
 
                 <!-- Première section du site, formulaire de recherche -->
@@ -54,13 +54,15 @@
                 
             </section>
                 <!-- Deuxième section, filtres et informations de recherche -->
-            <section class="filtres">
+            <div class="filtres">
                 <h2>Filtres</h2>
-                <div class="buttom"><div class="rond"><i class="fas fa-money-bill-wave filtresButtom"></i></div><h2>Économique</h2></div>
-                <div class="buttom"><div class="rond"><i class="fas fa-child filtresButtom"></i></div><h2>Familial</h2></div>
-                <div class="buttom"><div class="rond"><i class="fas fa-heart filtresButtom"></i></div><h2>Romantique</h2></div>
-                <div class="buttom"><div class="rond"><i class="fas fa-dog filtresButtom"></i></div><h2>Animaux Autorisés</h2></div>
-            </section>
+                <div id="contButtom">
+                    <div class="buttom"><div class="rond"><i class="fas fa-money-bill-wave filtresButtom"></i></div><h2>Économique</h2></div>
+                    <div class="buttom"><div class="rond"><i class="fas fa-child filtresButtom"></i></div><h2>Familial</h2></div>
+                    <div class="buttom"><div class="rond"><i class="fas fa-heart filtresButtom"></i></div><h2>Romantique</h2></div>
+                    <div class="buttom"><div class="rond"><i class="fas fa-dog filtresButtom"></i></div><h2>Animaux Autorisés</h2></div>
+                </div>
+            </div>
 
             <div class="infosFiltres">
                 <div class="infosBulle"><i class="fas fa-info" style="color: #0065FC;"></i></div>
@@ -208,7 +210,7 @@
             </div>   
 
 
-                <!-- Quatrième section, activités proposées dans la ville recherchée -->
+                <!-- Quatrième section, activités proposées dans la ville recherchée 
             <div id="acti">
                 <h1 class="activille0">Activités à Marseille</h1>
                 
